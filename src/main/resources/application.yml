@@ -1,0 +1,13 @@
+spring:
+  #开始thymeleaf设置
+  thymeleaf:
+    #禁用模板缓存
+    cache: false
+
+  messages:
+    encoding: GB2312
+    basename: message_zh_CN
+
+server:
+  servlet:
+    context-path: /thymeleaf
